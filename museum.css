@@ -16,9 +16,10 @@ article{
     padding: 0 auto;
 }
 h2{
-    font-size: 250%;
-    margin-bottom: 5px;
-    font-size: 70px; 
+    font-size: 50%;
+    margin: 20vw;
+    padding: -30vw;
+    width: 40vw;
 }
 
 p{
@@ -34,6 +35,6 @@ figure{
 }
 .headimg{
     width: 200px;
-    margin: 0 auto;
+    margin: 10%;
     padding: 0 auto;
 }
