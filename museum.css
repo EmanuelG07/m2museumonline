@@ -11,7 +11,7 @@ Body{
     font-family: sans-serif;
 }
 article{
-    width: 48vw;
+    width: 47vw;
     margin: 0 auto;
     padding: 0 auto;
 }
@@ -19,4 +19,11 @@ h2{
     font-size: 250%;
     margin-bottom: 5px;
     font-size: 70px; 
+}
+
+p{
+    font-size: 50%;
+    margin: -10vw;
+    padding: -20vw;
+    width: 40vw;
 }
