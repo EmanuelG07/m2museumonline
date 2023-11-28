@@ -294,8 +294,8 @@
 
 .main__content h1 {
   font-size: 2rem;
-  background-color: #453bfe;
-  background-image: linear-gradient(to top, #1008ff 0%, #1abced 100%);
+  background-color: #08009f;
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -310,13 +310,13 @@
   background: #ff8177; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #3b14ff,
-    #223cff
+    #ffffff,
+    #ffffff
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #0e12ff,
-    #2290ff
+    #0ef3ff,
+    #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -395,9 +395,9 @@
 }
 
 #card-2 {
-  background: #ff512f;
+  background: #ffffff;
   background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-  background: linear-gradient(to right, #dd2476, #ff512f);
+  background: linear-gradient(to right, #5c24dd, #2fcbff);
 }
 
 /* Mobile Responsive */
@@ -473,7 +473,7 @@
 
 /* Services Section */
 .services {
-  background: rgb(0, 0, 0);
+  background: rgb(12, 61, 151);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -484,7 +484,7 @@
 
 .services h1 {
   background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+  background-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
