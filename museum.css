@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: rgb(0, 0, 0)
   height: 80px;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@
 
 #navbar__logo {
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-image: linear-gradient(to top, #0829ff 0%, #ffffff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -55,7 +55,7 @@
 }
 
 .navbar__links {
-  color: #fff;
+  color: rgb(255, 255, 255)255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,15 +84,15 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: rgb(0, 51, 255);
+  background: -webkit-linear-gradient(to right, #00377a, rgb(2, 89, 171), rgb(0, 115, 255)53, 0, 255)
+  background: linear-gradient(to right, #000293, rgb(0, 3, 156), 0, 0), rgb(0, 38, 255));
   color: #fff;
   transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-  color: #9518fc;
+  color: #ffffff;
   transition: all 0.3s ease;
 }
 
@@ -219,8 +219,8 @@
   background: #ee0979; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ff6a00,
-    #ee0979
+    #0059ff,
+    #092fee
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
@@ -294,8 +294,8 @@
 
 .main__content h1 {
   font-size: 2rem;
-  background-color: #fe3b6f;
-  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+  background-color: #453bfe;
+  background-image: linear-gradient(to top, #1008ff 0%, #1abced 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -310,13 +310,13 @@
   background: #ff8177; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #9114ff,
-    #da22ff
+    #3b14ff,
+    #223cff
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #8f0eff,
-    #da22ff
+    #0e12ff,
+    #2290ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -333,9 +333,9 @@
 
 .main__btn {
   font-size: 1.8rem;
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: #93b43a;
+  background: -webkit-linear-gradient(to right, #454bfc, #1d42fd, #3a93b4);
+  background: linear-gradient(to right, #0a0074, #1d30fd, #3aa0b4);
   padding: 20px 60px;
   border: none;
   border-radius: 4px;
@@ -360,7 +360,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #ff1ead;
+  background: #4fff1e;
   transition: all 0.35s;
   border-radius: 4px;
 }
