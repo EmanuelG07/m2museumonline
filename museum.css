@@ -30,8 +30,8 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #0829ff 0%, #ffffff 100%);
+  background-color: #ffffff;
+  background-image: linear-gradient(to top, #0829ff 0%, rgb(30, 255, 0) 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -84,15 +84,15 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: rgb(0, 51, 255);
-  background: -webkit-linear-gradient(to right, #00377a, rgb(2, 89, 171), rgb(0, 115, 255)53, 0, 255)
+  background: rgb(0, 0, 0);
+  background: -webkit-linear-gradient(to right, #ffffff, rgb(2, 89, 171), rgb(0, 115, 255)53, 0, 255)
   background: linear-gradient(to right, #000293, rgb(0, 3, 156), 0, 0), rgb(0, 38, 255));
   color: #fff;
   transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-  color: #ffffff;
+  color: #22ff00;
   transition: all 0.3s ease;
 }
 
@@ -120,7 +120,7 @@
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: rgb(55, 255, 0) 19, 19);
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -138,7 +138,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: rgb(255, 255, 255)fff;
   }
 
   .navbar__item {
@@ -255,7 +255,7 @@
 }
 
 .highlight {
-  border-bottom: 4px solid rgb(132, 0, 255);
+  border-bottom: 4px solid rgb(43, 255, 0);
 }
 
 @media screen and (max-width: 768px) {
@@ -270,7 +270,7 @@
 
 /* About Section */
 .main {
-  background-color: rgb(12, 61, 151);
+  background-color: rgb(23, 38, 151)5)
   padding: 10rem 0;
 }
 
@@ -472,121 +472,38 @@
 }
 
 /* Services Section */
-.services {
-  background: rgb(12, 61, 151);
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 55, 143); /* Lichtgrijze achtergrondkleur */
+
+}
+
+.photo-gallery {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  height: 100%;
-  padding: 10rem 0;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
-.services h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
-  font-size: 2.5rem;
-}
-
-.services__wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-}
-
-.services__card {
+.photo-card {
+  width: 250px;
+  height: 350px;
   margin: 10px;
-  height: 425px;
-  width: 300px;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
-  transition: 0.3s ease-in;
+  overflow: hidden;
+  border: 2px solid rgb(0, 51, 255)000;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.services__card:nth-child(2) {
-  background: #1fa2ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-.services__card:nth-child(3) {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-}
-
-.services__card h2 {
-  text-align: center;
-}
-
-.services__card p {
-  text-align: center;
-  margin-top: 24px;
-  font-size: 20px;
-}
-
-.services__btn {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-
-.services__card button {
-  color: #fff;
-  padding: 14px 24px;
-  border: none;
-  outline: none;
-  border-radius: 4px;
-  background: #131313;
-  font-size: 1rem;
-}
-
-.services__card button:hover {
-  cursor: pointer;
-}
-
-.services__card:hover {
-  transform: scale(1.075);
-  transition: 0.3s ease-in;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 1300px) {
-  .services__wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .services__wrapper {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Footer CSS */
 .footer__container {
   background-color: #131313;
@@ -645,7 +562,7 @@
 }
 
 .social__icon--link {
-  color: #fff;
+  color: #ffffff;
   font-size: 24px;
 }
 
