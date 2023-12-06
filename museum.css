@@ -31,7 +31,7 @@
 
 #navbar__logo {
   background-color: #ffffff;
-  background-image: linear-gradient(to top, #0829ff 0%, rgb(30, 255, 0) 100%);
+  background-image: linear-gradient(to top, #ffffff 0%, rgb(255, 255, 255) 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -55,7 +55,7 @@
 }
 
 .navbar__links {
-  color: rgb(255, 255, 255)255, 255);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,14 +85,14 @@
   outline: none;
   border-radius: 4px;
   background: rgb(0, 0, 0);
-  background: -webkit-linear-gradient(to right, #ffffff, rgb(2, 89, 171), rgb(0, 115, 255)53, 0, 255)
-  background: linear-gradient(to right, #000293, rgb(0, 3, 156), 0, 0), rgb(0, 38, 255));
-  color: #fff;
+  background: -webkit-linear-gradient(to right, #ffffff, rgb(255, 255, 255), rgb(114, 114, 114)53, 0, 255)
+  background linear-gradient(to right,white);
+  color: white;
   transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-  color: #22ff00;
+  color: #7c7c7c;
   transition: all 0.3s ease;
 }
 
@@ -120,7 +120,7 @@
   }
 
   .navbar__menu.active {
-    background: rgb(55, 255, 0) 19, 19);
+    background: rgb(55, 255, 0) 19, 19;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -192,11 +192,9 @@
 
 /* Hero Section */
 .hero {
-  background: #000000;
-  background: linear-gradient(to right, rgb(0, 17, 130), #000000);
+  background: url('/nxt\ achtergrond.png') center/cover no-repeat; /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   padding: 200px 0;
 }
-
 .hero__container {
   display: flex;
   flex-direction: column;
@@ -210,22 +208,23 @@
 }
 
 .hero__heading {
-  font-size: 100px;
+  font-size: 120px;
   margin-bottom: 24px;
   color: #fff;
+  font-style: italic;
 }
 
 .hero__heading span {
   background: #ee0979; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #0059ff,
-    #092fee
+    #ffffff,
+    #ffffff
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #ffffff,
-    #00c8ff
+    #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -235,7 +234,7 @@
 }
 
 .hero__description {
-  font-size: 60px;
+  font-size: 50px;
   background: #da22ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -244,7 +243,7 @@
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #0044ff,
+    #ffffff,
     #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
@@ -255,7 +254,7 @@
 }
 
 .highlight {
-  border-bottom: 4px solid rgb(43, 255, 0);
+  border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 768px) {
@@ -266,11 +265,13 @@
   .hero__description {
     font-size: 40px;
   }
-}
+} maak de achtergront een foto
+
+
 
 /* About Section */
 .main {
-  background-color: rgb(23, 38, 151)5)
+  background-color: rgb(91, 91, 91)
   padding: 10rem 0;
 }
 
@@ -288,13 +289,14 @@
 }
 
 .main__content {
-  color: #fff;
+  color: white;
   width: 100%;
+  font-style: italic;
 }
 
 .main__content h1 {
   font-size: 2rem;
-  background-color: #08009f;
+  background-color: #535353;
   background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -315,7 +317,7 @@
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #0ef3ff,
+    #ffffff,
     #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
@@ -333,9 +335,9 @@
 
 .main__btn {
   font-size: 1.8rem;
-  background: #93b43a;
-  background: -webkit-linear-gradient(to right, #454bfc, #1d42fd, #3a93b4);
-  background: linear-gradient(to right, #0a0074, #1d30fd, #3aa0b4);
+  background: #8d8d8d;
+  background: -webkit-linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+  background: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
   padding: 20px 60px;
   border: none;
   border-radius: 4px;
@@ -349,8 +351,9 @@
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
+  font-style: oblique;
 }
 
 .main__btn:after {
@@ -360,13 +363,13 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #4fff1e;
+  background: #858585;
   transition: all 0.35s;
   border-radius: 4px;
 }
 
 .main__btn:hover {
-  color: #fff;
+  color: red;
 }
 
 .main__btn:hover:after {
@@ -385,10 +388,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  color: #ff0000;
+  background-image: url('/nxt\ logo.jpg'); 
+  background-size:
+  background-repeat: no-repeat;
+  background-position: center; 
 }
-
 .fa-layer-group,
 .fa-users {
   font-size: 14rem;
@@ -477,10 +482,9 @@ body {
   font-family: Arial, sans-serif;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(0, 55, 143); /* Lichtgrijze achtergrondkleur */
+    background-color: rgb(0, 0, 0);
 
 }
-
 .photo-gallery {
   display: flex;
   justify-content: space-around;
@@ -488,17 +492,15 @@ body {
   flex-wrap: wrap;
   padding: 20px;
 }
-
 .photo-card {
   width: 250px;
   height: 350px;
   margin: 10px;
   overflow: hidden;
-  border: 2px solid rgb(0, 51, 255)000;
+  border: 2px solid rgb(0, 0, 0)000;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-
 .photo-card img {
   width: 100%;
   height: 100%;
