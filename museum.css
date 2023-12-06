@@ -192,7 +192,7 @@
 
 /* Hero Section */
 .hero {
-  background: url('/nxt\ achtergrond.png') center/cover no-repeat; /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background: url('img//nxt\ achtergrond.png') center/cover no-repeat; /* Replace 'path/to/your/image.jpg' with the actual path to your image */
   padding: 200px 0;
 }
 .hero__container {
@@ -389,7 +389,7 @@
   flex-direction: column;
   justify-content: center;
   color: #ff0000;
-  background-image: url('/nxt\ logo.jpg'); 
+  background-image: url('img//nxt\ logo.jpg'); 
   background-size:
   background-repeat: no-repeat;
   background-position: center; 
@@ -621,4 +621,4 @@ body {
     padding: 10px;
     width: 100%;
   }
-}
+}  
