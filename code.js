@@ -50,4 +50,4 @@ const hideMobileMenu = () => {
     menu.classList.toggle('is-active');
     menuLinks.classList.remove('active');
   }
-};
+}
