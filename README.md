@@ -1,7 +1,8 @@
 "# m2museumonline" 
 
-## School opdracht Museumonline2
-# ik heb samen gewerkt met emanuel we hadden een goeie taak verdeling en onze ideeen waren ook het zelfde
+# School opdracht Museumonline2
+### ik heb samen gewerkt met emanuel we hadden een goeie taak verdeling en onze ideeen waren ook het zelfde
+#* trello
 
 <<<<<<< HEAD
 =======
