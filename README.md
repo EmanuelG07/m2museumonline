@@ -1,5 +1,9 @@
 # School opdracht Museumonline2
-### ik heb samen gewerkt met emanuel we hadden een goeie taak verdeling en onze ideeen waren ook het zelfde
+### ik heb samen gewerkt met emanuel we hadden een goeie taak verdeling en onze ideeen waren ook het zelfde.
+### Emanuel heeft het Trello bord in orde gemaakt en ik zelf heb gewerkt aan onze Wireframe.
+### Natuurlijk deden we deze dingen niet alleen we gaven ideeen aan elkaar en gebruikte 2 breinen.
+### Uiteindelijk hebben wij samen gewerkt aan onze code het eindproduct en al zeg ik het zelf het ziet er top uit. 
+### met mooie Css en goeie werkende code ziet onze website er super strak uit en we zijn er trots op!
 * # trello
   ### https://trello.com/b/cWbq5YHK/project-planning
 * # Wireframe
