@@ -10,11 +10,3 @@
   ![image](https://github.com/EmanuelG07/m2museumonline/assets/144898896/1a7a7f7d-bee7-4a36-9eb0-527099ab2454)
 *  # Museumonline2 link website
   ### https://37411.hosts2.ma-cloud.nl/m2museumonline/ 
-
-<<<<<<< HEAD
-## School opdracht museum online
-
-
-=======
-  
->>>>>>> 031ef3a19310e8d39c586cce898cd044b17c150b
