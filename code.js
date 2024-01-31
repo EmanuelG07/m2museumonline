@@ -51,3 +51,19 @@ const hideMobileMenu = () => {
     menuLinks.classList.remove('active');
   }
 }
+function toggleMode() {
+  const body = document.body;
+  body.classList.toggle('light-mode');
+  body.classList.toggle('dark-mode');
+
+  const currentMode = body.classList.contains('light-mode') ? 'light' : 'dark';
+  localStorage.setItem('preferredMode', currentMode);
+}
+const preferredMode = localStorage.getItem('preferredMode');
+
+if (preferredMode === 'dark') {
+  document.body.classList.add('dark-mode');
+} else {
+  document.body.classList.add('light-mode');
+}
+

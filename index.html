@@ -1,155 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NXT</title>
-    <link rel="stylesheet" href="museum.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="#home" id="navbar__logo">NXT</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span> <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page">About</a>
-          </li>
-        
-          </li>
-          <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Buy tickets</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <div class="hero" id="home">
-      <div class="hero__container">
-        <h1 class="hero__heading">NXT<span>Museum</span></h1>
-        <p class="hero__description">ART ON ANOTHER LEVEL</p>
-        <img src="/img/mensen.png" alt="NXT Museum Logo" class="hero__logo">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NXT</title>
+  <link rel="stylesheet" href="museum.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">NXT</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="about-page">About</a>
+        </li>
+        <button id="mode-toggle" onclick="toggleMode()">Blue mode</button>
+        </li>
+        <li class="navbar__btn">
+          <a href="#sign-up" class="button" id="signup">Buy tickets</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <div class="hero__container">
+      <h1 class="hero__heading">NXT<span>Museum</span></h1>
+      <p class="hero__description">ART ON ANOTHER LEVEL</p>
+      <img src="/img/mensen.png" alt="NXT Museum Logo" class="hero__logo">
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="main" id="about"></div>
+  <div class="main__container">
+    <div class="main__img--container">
+      <div class="main__img--card"><i class=""></i></div>
+    </div>
+    <div class="main__content">
+      <h1>What is Nxt Museum?</h1>
+      <h2>NXT History</h2>
+      <p>
+        Nxt Museum, founded by the young entrepreneur Merel van Helsdingen,
+        showcases large-scale art installations developed through interdisciplinary collaborations between established
+        and emerging artists,
+        designers, technicians, musicians, and scientists</p>
+    </div>
+  </div>
+  </div>
+
+  <!-- Services Section -->
+  <div class="photo-gallery">
+    <div class="photo-card">
+      <img src="img/MicrosoftTeams-image.png" alt="Photo 1">
+    </div>
+    <div class="photo-card">
+      <img src="img/IMG_0644.jpeg" alt="Photo 2">
+    </div>
+    <div class="photo-card">
+      <img src="/img/IMG_0642.jpeg" alt="Photo 3">
+    </div>
+    <div class="photo-card">
+      <img src="/img/IMG_0643.jpeg" alt="Photo 4">
+    </div>
+    <div class="photo-card">
+      <img src="/img/IMG_0640.jpeg" alt="Photo 5">
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="main" id="sign-up">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Come see our collection</h1>
+        <h2>Buy tickets today</h2>
+        <p>See what makes us different</p>
+        <button class="main__btn"><a href="https://tickets.nxtmuseum.com/nl/tickets" target="_blank">Buy
+            tickets</a></button>
+      </div>
+      <div class="main__img--container">
+        <div class="main__img--card" id="">
+          <i class=""></i>
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- About Section -->
-    <div class="main" id="about"></div>
-      <div class="main__container">
-        <div class="main__img--container">
-          <div class="main__img--card"><i class=""></i></div>
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About us</h2>
+          <a href="https://www.google.com/maps/dir/52.3913454,4.8578679/Nxt+Museum,+Asterweg+22,+1031+HP+Amsterdam/"
+            target="_blank">Adres
+          </a> <a href="/">Nxt Museum</a>
+          <a href="/">Asterweg 22</a> <a href="/">1031HP Amsterdam</a>
         </div>
-        <div class="main__content">
-          <h1>What is Nxt Museum?</h1>
-          <h2>Art of technology</h2>
-          <p>Schedule a visit to learn more about our museum</p>
-          <button class="main__btn"><a href="https://nxtmuseum.com/nl/" target="_blank">Check it out!</a></button>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="https://nxtmuseum.com/nl/vraag-verzoek-of-feedback/">Contact</a> <a href="/">Support</a>
+          <a href="/">Destinations</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Help us</h2>
+          <a href="https://www.techgirl.nl/nxt-museum-amsterdam-ufo/">Reviews</a><a href="/"></a>
+          <a href="https://nxtmuseum.com/nl/vraag-verzoek-of-feedback/">feedback</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Openingstijden</h2>
+          <a href="">Zo - Di: 11:30 - 20:30</a> <a href=""> Wo: 11:00 - 21:30</a>
+          <a href="">Do - Za: 11:30 - 22:30</a> <a href=""></a>
         </div>
       </div>
     </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo">NXT</a>
+        </div>
+        <p class="website__rights">Oficial partner Samsung</p>
+        <div class="social__icons">
+          <a href="https://www.facebook.com/nxtmuseum/?locale=nl_NL" class="social__icon--link" target="_blank"><i
+              class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/nxtmuseum/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@NxtMuseum" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/NxtMuseum" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
 
-    <!-- Services Section -->
-    <div class="photo-gallery">
-      <div class="photo-card">
-        <img src="img/MicrosoftTeams-image.png" alt="Photo 1">
-      </div>
-      <div class="photo-card">
-        <img src="img/IMG_0644.jpeg" alt="Photo 2">
-      </div>
-      <div class="photo-card">
-        <img src="/img/IMG_0642.jpeg" alt="Photo 3">
-      </div>
-      <div class="photo-card">
-        <img src="/img/IMG_0643.jpeg" alt="Photo 4">
-      </div>
-      <div class="photo-card">
-        <img src="/img/IMG_0640.jpeg" alt="Photo 5">
-      </div>
-    </div>
+  <script src="code.js"></script>
+</body>
 
-    <!-- Features Section -->
-    <div class="main" id="sign-up">
-      <div class="main__container">
-        <div class="main__content">
-          <h1>Come see our collection</h1>
-          <h2>Buy tickets today</h2>
-          <p>See what makes us different</p>
-          <button class="main__btn"><a href="https://tickets.nxtmuseum.com/nl/tickets" target="_blank">Buy tickets</a></button>
-        </div>
-        <div class="main__img--container">
-          <div class="main__img--card" id="">
-            <i class=""></i>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer Section -->
-    <div class="footer__container">
-      <div class="footer__links">
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>About us</h2>
-            <a href="https://www.google.com/maps/dir/52.3913454,4.8578679/Nxt+Museum,+Asterweg+22,+1031+HP+Amsterdam/" target="_blank">Adres
-            </a> <a href="/">Nxt Museum</a>
-            <a href="/">Asterweg 22</a> <a href="/">1031HP Amsterdam</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>Contact Us</h2>
-            <a href="/">Contact</a> <a href="/">Support</a>
-            <a href="/">Destinations</a>
-          </div>
-        </div>
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>Videos</h2>
-            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
-            <a href="/">Agency</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>Social Media</h2>
-            <a href="https://www.instagram.com/nxtmuseum/" target="_blank">Instagram</a> <a href="https://www.facebook.com/nxtmuseum/?locale=nl_NL" target="_blank">Facebook</a>
-            <a href="https://www.youtube.com/@NxtMuseum" target="_blank">Youtube</a> <a href="https://twitter.com/NxtMuseum" target="_blank">Twitter</a>
-          </div>
-        </div>
-      </div>
-      <section class="social__media">
-        <div class="social__media--wrap">
-          <div class="footer__logo">
-            <a href="/" id="footer__logo">NXT</a>
-          </div>
-          <p class="website__rights">Oficial partner Samsung</p>
-          <div class="social__icons">
-            <a href="https://www.facebook.com/nxtmuseum/?locale=nl_NL" class="social__icon--link" target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="https://www.instagram.com/nxtmuseum/" class="social__icon--link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="https://www.youtube.com/@NxtMuseum" class="social__icon--link"
-              ><i class="fab fa-youtube"></i
-            ></a>
-            <a href="https://twitter.com/NxtMuseum" class="social__icon--link"
-              ><i class="fab fa-twitter"></i
-            ></a>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <script src="code.js"></script>
-  </body>
 </html>
